@@ -1,9 +1,10 @@
+
 class aravind{
  
          public static void main(String[]arg){
-      
-              System.out.print("Welcome To aravind");
-              System.out.println("learn more");
+              String name ="welcome to aravind java course";
+              System.out.println("Welcome To aravind");
+              System.out.println(name);
             }
 
-}      
+}  
