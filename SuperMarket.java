@@ -18,7 +18,7 @@ public static void main(String[] args)
        }
   void purchase()
        {
-         System.out.println("Customer is buying"+brand,"For price"+price,"of discount"+discount);
+         System.out.println("Customer is buying"+brand+"For price"+price+"of discount"+discount);
        }
 }
 //////////////////////////////////////////////////////
