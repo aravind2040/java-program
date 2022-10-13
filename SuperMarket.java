@@ -51,14 +51,20 @@ Customer is buying :LuxFor price :25 of discount :2
         this.discount=discount;
         this.tax=tax;
     }
+        SuperMarket() //zero constructor
+    {
+        System.out.println("Thank You");
+    }
 public static void main(String[] args)
        {
        SuperMarket brush= new SuperMarket("Pepsodant",30,5);
        SuperMarket book= new SuperMarket("book",25);
-         SuperMarket soap= new SuperMarket("Lux",300,20,2);
+       SuperMarket soap= new SuperMarket("Lux",300,20,2);
+       SuperMarket    well=new SuperMarket();
        brush.purchase();
        book.purchase();
         soap.purchase();
+   
        }
   void purchase()
        {
