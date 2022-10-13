@@ -71,7 +71,8 @@ public static void main(String[] args)
          System.out.println("Customer is buying :"+brand+"For price :"+price+"of discount :"+discount+"tax :"+tax);
        }
 }
-////////////////////////////////////////////////////////////////////////////   
+////////////////////////////////////////////////////////////////////////////  
+Thank You
 Customer is buying :PepsodantFor price :30of discount :5tax :0
 Customer is buying :bookFor price :25of discount :0tax :0
 Customer is buying :LuxFor price :300of discount :20tax :2
