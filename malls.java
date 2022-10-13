@@ -26,3 +26,49 @@ public static void main(String[] args)
 
 
 }
+///// using constructor 
+/////////////////////////////////
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+public class Mall {
+    //global variables 
+   static String name ="Wellcome to PVR Mall";
+    String Moviename,ticketprice,place;
+    int time;
+    
+    //constructor
+    Mall(String Moviename,String ticketprice,int time,String place){
+        this.Moviename = Moviename;
+        this.ticketprice = ticketprice;
+        this.time = time;
+         this.place = place;
+    }
+    
+    public static void main(String[] args) {
+        System.out.println(Mall.name);
+        
+        Mall screen1 = new Mall("Master","400",10,"velacherry PVR");
+        Mall screen2 = new Mall("Cobra","200",11,"velacherry PVR");
+        Mall screen3 = new Mall("Vikram","100",9,"velacherry PVR");
+        Mall screen4= new Mall("Viruman","60",12,"velacherry PVR");
+         
+       screen1.details();
+        screen2.details();
+          screen3.details();
+            screen4.details();
+    }
+    void details(){
+        
+        System.out.println("Movie Name :"+" " + Moviename +" "+"Ticketprice :"+ ticketprice +" "+"Movie Time :"+ time +" "+"place is :"+place);
+        
+    }
+    
+    }
+////////////////////////////////////////
+output
+Wellcome to PVR Mall
+Movie Name : Master Ticketprice :400 Movie Time :10 place is :velacherry PVR
+Movie Name : Cobra Ticketprice :200 Movie Time :11 place is :velacherry PVR
+Movie Name : Vikram Ticketprice :100 Movie Time :9 place is :velacherry PVR
+Movie Name : Viruman Ticketprice :60 Movie Time :12 place is :velacherry PVR
+//////////////////////////////////////////////////////////////////////////
