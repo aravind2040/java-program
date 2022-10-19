@@ -19,7 +19,14 @@ public void call()
     {
     System.out.println("Receiving call facility"); 
     }
-
+     public static void main(String[] args)
+       {
+            Telephone bsnl = new Telephone();
+            System.out.println(bsnl.price); 
+            System.out.println(bsnl.name); 
+            bsnl.call();
+            bsnl.receive_call();
+}
 
 
 }
