@@ -2,6 +2,8 @@
 //////////////// Assignment task////////////////////////////////////////
 
 
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 
 /* Online Java Compiler and Editor */
  class Telephone{
@@ -36,22 +38,22 @@ class Mobile extends Telephone{
     public static void main(String[] args)
        {
             Mobile samsung = new Mobile(); 
-            Telephone bsnl = new Telephone();
-             //samsung.sms();
-             samsung.call();
-            
+            samsung.call();
+            samsung.receive_call();
+            samsung.sms();
             System.out.println(samsung.price); 
-            System.out.println(samsung.name); 
+            System.out.println(samsung.name);
             
+            Telephone bsnl = new Telephone();
+         
             System.out.println(bsnl.price); 
             System.out.println(bsnl.name); 
+                bsnl.call();
+             bsnl.receive_call();
     
     
 }
-public void call()
-    {
-    System.out.println("video Calling Facility"); 
-    }
+
 
 }
 
