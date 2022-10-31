@@ -51,21 +51,28 @@ Customer is buying :LuxFor price :25 of discount :2
         this.discount=discount;
         this.tax=tax;
     }
+        SuperMarket() //zero constructor
+    {
+        System.out.println("Thank You");
+    }
 public static void main(String[] args)
        {
        SuperMarket brush= new SuperMarket("Pepsodant",30,5);
        SuperMarket book= new SuperMarket("book",25);
-         SuperMarket soap= new SuperMarket("Lux",300,20,2);
+       SuperMarket soap= new SuperMarket("Lux",300,20,2);
+       SuperMarket    well=new SuperMarket();
        brush.purchase();
        book.purchase();
         soap.purchase();
+   
        }
   void purchase()
        {
          System.out.println("Customer is buying :"+brand+"For price :"+price+"of discount :"+discount+"tax :"+tax);
        }
 }
-////////////////////////////////////////////////////////////////////////////   
+////////////////////////////////////////////////////////////////////////////  
+Thank You
 Customer is buying :PepsodantFor price :30of discount :5tax :0
 Customer is buying :bookFor price :25of discount :0tax :0
 Customer is buying :LuxFor price :300of discount :20tax :2

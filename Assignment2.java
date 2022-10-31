@@ -19,8 +19,12 @@ public void call()
     {
     System.out.println("Receiving call facility"); 
     }
+<<<<<<< HEAD
 
        public static void main(String[] args)
+=======
+     public static void main(String[] args)
+>>>>>>> refs/remotes/origin/master
        {
             Telephone bsnl = new Telephone();
             System.out.println(bsnl.price); 
@@ -30,7 +34,10 @@ public void call()
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 }
 
 
@@ -57,8 +64,13 @@ class Mobile extends Telephone{
          
             System.out.println(bsnl.price); 
             System.out.println(bsnl.name); 
+<<<<<<< HEAD
             bsnl.call();
             bsnl.receive_call();
+=======
+                bsnl.call();
+             bsnl.receive_call();
+>>>>>>> refs/remotes/origin/master
     
     
 }
